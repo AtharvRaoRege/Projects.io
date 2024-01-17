@@ -1,0 +1,38 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+html,body{
+  font-family:Gilroy;
+  height:100%;
+  width:100%;
+}
+
+.main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+input{
+    width:200px;
+}
+button{
+    padding:5px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: lightblue;
+    font-family: gilroy;
+    color: #000;
+    font-size: large;
+    font-weight: 900;
+}
